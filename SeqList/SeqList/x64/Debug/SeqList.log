@@ -1,0 +1,4 @@
+﻿  SeqList.c
+D:\c语言\SeqList\SeqList\SeqList.c(10,4): warning C4550: 表达式计算为缺少参数列表的函数
+D:\c语言\SeqList\SeqList\SeqList.c(23,3): warning C4550: 表达式计算为缺少参数列表的函数
+  SeqList.vcxproj -> D:\c语言\SeqList\x64\Debug\SeqList.exe
