@@ -66,5 +66,7 @@ int main()
 			break;
 		}
 	} while (input);
+	free(sl.a);
+	sl.a = NULL;
 	return 0;
 }
