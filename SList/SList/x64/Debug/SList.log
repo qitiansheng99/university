@@ -1,0 +1,13 @@
+﻿  SList.c
+D:\c语言\SList\SList\SList.c(14,28): warning C4028: 形参 1 与声明不同
+  Test.c
+D:\c语言\SList\SList\Test.c(5,14): warning C4047: “函数”:“SLTNode *”与“SLTNode **”的间接级别不同
+D:\c语言\SList\SList\Test.c(5,14): warning C4024: “SLTPushBack”: 形参和实参 1 的类型不同
+D:\c语言\SList\SList\Test.c(6,14): warning C4047: “函数”:“SLTNode *”与“SLTNode **”的间接级别不同
+D:\c语言\SList\SList\Test.c(6,14): warning C4024: “SLTPushBack”: 形参和实参 1 的类型不同
+D:\c语言\SList\SList\Test.c(7,14): warning C4047: “函数”:“SLTNode *”与“SLTNode **”的间接级别不同
+D:\c语言\SList\SList\Test.c(7,14): warning C4024: “SLTPushBack”: 形参和实参 1 的类型不同
+D:\c语言\SList\SList\Test.c(8,14): warning C4047: “函数”:“SLTNode *”与“SLTNode **”的间接级别不同
+D:\c语言\SList\SList\Test.c(8,14): warning C4024: “SLTPushBack”: 形参和实参 1 的类型不同
+  正在生成代码...
+  SList.vcxproj -> D:\c语言\SList\x64\Debug\SList.exe
