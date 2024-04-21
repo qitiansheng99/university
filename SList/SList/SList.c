@@ -171,8 +171,9 @@ void SLTDestory(SLTNode** pphead)
 	SLTNode* ret = *pphead;
 	SLTNode* pos = NULL;
 	while (*pphead != NULL)
-	{
-		*pphead = ret->next;
+	{ 
+		ret = *pphead;
+		*pphead = (*pphead)->next;
 		free(ret);
 	}
 }

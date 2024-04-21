@@ -1,5 +1,2 @@
-﻿  SList.c
-D:\c语言\SList\SList\SList.c(8,3): warning C4550: 表达式计算为缺少参数列表的函数
-  Test.c
-  正在生成代码...
+﻿  Test.c
   SList.vcxproj -> D:\c语言\SList\x64\Debug\SList.exe
