@@ -27,14 +27,14 @@ SLTNode* SLTFind(SLTNode* phead,int x)
 
 void SLTDataBack(SLTNode** pphead, SLTNode* pos)
 {
-	if (*pphead == pos)
+	if (pos == NULL)
+	{
+		return;
+	}
+	else if (*pphead == pos)
 	{
 		*pphead = pos->next;
 		free(pos);
-	}
-	else if (pos == NULL)
-	{
-		return;
 	}
 	else
 	{
@@ -96,7 +96,7 @@ int main()
 	while(plist != NULL)
 	{
 		printf("%d ", plist->data);
-		plist = plist->next;
+		plist = plist->next;	
 	}
 	return 0;
 }
