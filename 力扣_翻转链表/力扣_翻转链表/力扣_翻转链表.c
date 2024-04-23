@@ -40,15 +40,16 @@ int main()
 	SLTNode* n5 = (SLTNode*)malloc(sizeof(SLTNode));
 	n1->data = 1;
 	n2->data = 2;
-	//n3->data = 3;
-	//n4->data = 4;
-	//n5->data = 5;
+	n3->data = 3;
+	n4->data = 4;
+	n5->data = 5;
 	plist = n1;
 	n1->next = n2;
-	n2->next = NULL;
-	/*n3->next = n4;
+	n2->next = n3;
+	n3->next = n4;
 	n4->next = n5;
-	n5->next = NULL;*/
+	n5->next = NULL;
+	//直接进行翻转
 	plist = SLT_turn(plist);
 	while (plist != NULL)
 	{
