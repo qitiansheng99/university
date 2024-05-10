@@ -1,0 +1,4 @@
+﻿  test.c
+D:\c语言\Queue\Queue\test.c(16,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+D:\c语言\Queue\Queue\test.c(16,9): warning C4313: "printf": 格式字符串中的 "%s" 与类型为 "int" 的参数 1 冲突
+  Queue.vcxproj -> D:\c语言\Queue\x64\Debug\Queue.exe
